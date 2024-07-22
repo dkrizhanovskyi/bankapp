@@ -57,5 +57,4 @@ public class AccountControllerTest {
                 .andExpect(jsonPath("$.balance").value(1000.0));
     }
 
-    // Добавьте тесты для update и delete методов с @WithMockUser
 }
